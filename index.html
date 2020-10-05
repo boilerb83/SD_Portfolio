@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="main.css">
+    <title>Justified Nav Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/8930a5cd36.js" crossorigin="anonymous"></script>
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>\
+
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  
+  </head>
+ 
+  <body>
+    <div class="container">
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+          
+  
+        <nav>
+          <ul class="nav nav-justified">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </nav>
+      <section id = "home">
+      </section>
+
+      <!-- Jumbotron -->
+      <!-- <div class="jumbotron"> -->
+        <div class="name">
+
+          <h1>Brandon Thompson</h1>
+        
+        <p class="lead">An Electrical Engineer, Designer, and future Software Developer.</p>
+        <a href="https://github.com/boilerb83"><i class="fab fa-github fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/brandon-thompson-474b9424/"><i class="fab fa-linkedin fa-3x"></i></a>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row0">
+        <section id = "about">
+          <div class="col-lg-4">
+            <div class="about-section">
+          <h2>About</h2>
+          <p class="Education">Education: Purdue University Bachelor of Science in Electrical Engineering Technology</p>
+          <p class= "Additional Education">Current Education:  1150 Academy Software Development</p>   
+          <p class ="Technical Skills"></p>Technical Languages: Embedded C, C#, .NET, SQL Server, Excel VBA, GitHub</p>
+          <p class ="Hobbies"></p>Hobbies: I like being outdoors, road cycling, mountain biking, and riding my motorcycle.</p>
+          
+          <p><a href="../SD_Portfolio/assets/B_Thompson_Resume_Engineering_2020.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">View Resume</a></p>
+        </div>
+        </div>
+        </section>
+      </div>
+
+      <section id = "projects">
+        <div class="row1">
+          <div class="col-lg-12">
+            <p></p>
+            <h2>Projects</h2>
+          </div>
+        </div>
+
+        <div class="row2">
+          <div class="col-lg-4" id = "creature_assignment">
+            <p>Creature Assignment</p>
+            <a href = "https://codepen.io/boilerb83/pen/PoNRgvL"><img src = "../SD_Portfolio/assets/Creature.png" class = "img-responsive")></a>
+          </div>
+          <div class="col-lg-4" id = "business_challenge">
+            <p>Business Console</p>
+            <a href = " https://boilerb83.github.io/GoldBadge/"><img src = "../SD_Portfolio/assets/Business_Logic.png" class = "img-responsive")></a>
+          </div>
+          <div class="col-lg-4" id = "blue_badge">
+            <p>Blue Badge Challenges</p>
+            <p><a class="btn btn-primary" href="#" role="button">TBD future development</a></p> 
+          </div>
+          <div class="col-lg-4" id = "red_badge">
+            <p>Red Badge Challenges</p>
+            <p><a class="btn btn-primary" href="#" role="button">TBD future development</a></p> 
+          </div>
+        </div>
+      </section>
+ 
+      <section id = "contact">
+      <div class = "row3">
+          <div class ="col-lg-4">
+          <div class="contact-title"> 
+          <h2>Contact Me</h2>
+          </div>
+          <p id="contact_label">Please fill this form out to email me</p>
+            <form method="POST" action="https://formspree.io/f/xbjpdlwv">
+            <p><input type="text" placeholder="Enter Name"></p>
+            <p><input type="text" placeholder="Enter Email" name ="_replyto"></p>
+            <p><input type="text" placeholder="Enter Contact Number"></p>
+            <p><textarea placeholder="Enter Message"></textarea></p>
+            <button><a class="btn btn-primary" type="submit">SUBMIT</a></button>
+            </form>
+            <div id="contact-text">
+          </div>
+          </div>
+       </div>  
+      </section>      
+    </div>
+      
+    <div>
+      <!-- Site footer -->
+      <footer class="footer">
+        <br><p>&copy; 2020 by Brandon Thompson</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
