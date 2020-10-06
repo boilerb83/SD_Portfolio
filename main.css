@@ -10,7 +10,7 @@
     /* scroll-snap-type: y mandatory; */
   }
   
-  body {    /*image not working correctly*/
+  body {   
     background-image: url("../SD_Portfolio/assets/developer_background.jpg");
     background-repeat: no-repeat;
     background-position: center top;
@@ -123,7 +123,9 @@
    }
 
    .card-title{
-       color: black;
+       color: #4285F4;
+       text-align: center;
+       font-weight: bold;
    }
 
   a
@@ -162,7 +164,7 @@
     margin-left: 90px;
     z-index: 2;
     color: #4285F4;
-    transition-duration: 800ms;
+    transition-duration: 600ms;
   }
   
   .nav-links li:hover {
