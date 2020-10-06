@@ -181,4 +181,13 @@
     font-size: 18px;
     margin-left: 250px;
   }
+
+  #footer{
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-left: 250 px;
+    margin-left: 940px;
+  }
   
