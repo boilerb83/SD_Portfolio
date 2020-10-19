@@ -9,11 +9,6 @@
     scroll-behavior: smooth;
     /* scroll-snap-type: y mandatory; */
   }
-
-  img:hover {               /*---ROTATE IMAGES--- WIP ----*/
-    -webkit-transform: rotate(10deg);
-    transform: rotate(10deg); 
-  }
   
   body {   
     background-image: url("../SD_Portfolio/assets/developer_background.jpg");
@@ -33,6 +28,7 @@
   #home{
       /* margin-top: 350px; */
       min-height: 100vh;
+
   }
 
 .name{
@@ -70,8 +66,9 @@
 }
 
  #work-cards{
-     color:white;   /*possibly*/
-}
+     color: white;
+
+ }
 
  #work h1{
      color: white;
@@ -130,7 +127,7 @@
        text-align: center;
        font-weight: bold;
    }
-  
+
   a
   {
     background-color: #4285F4;
@@ -149,6 +146,7 @@
     position: fixed;
     width: 100%;
     color: #4285F4;
+
   }
   
   .nav-links {
@@ -158,6 +156,7 @@
     position: fixed;
     z-index: 2;
     color: #4285F4;
+
   }
   
   .nav-links li {
